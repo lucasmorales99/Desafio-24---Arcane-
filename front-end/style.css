@@ -1,0 +1,96 @@
+*{
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body {
+    background-image: url("img/wallpaper.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1,h2{
+    margin: 0px;
+}
+
+:root{
+    --color-blue: #0080C8;
+    --color-white:#ffffff;
+    --color-gray:#E7E7E7;
+}
+.menu{
+    cursor: pointer;
+    padding:1.5rem ;
+}
+.title{
+    color: #e7e7e7;
+    margin: 17.3rem 1.5rem 0px 1.5rem;
+}
+.grid-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    place-content: center;
+}
+.title-img{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    margin-top: 0px;
+    grid-column: 1/3;
+    font-size: 68px;
+    line-height: 83px;
+
+}
+.title-text{
+    font-size: 4.25rem;
+    grid-column: 1/3;
+    margin-bottom: 0px;
+}
+.title-button-1{
+    border-radius: 5px;
+    border: transparent;
+    background-color: #0080C8;
+    color: white;
+    grid-column: 1/3;
+    padding: 12px 22px;
+    margin: auto;
+    width: 312px;
+    height: 43px;
+    left: 24px;
+    top: 473px;
+    gap: 10px;
+}
+.title-button-1 span{
+    margin-left: 1rem;
+}
+.title-button-2{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--color-white) ;
+    grid-column: 1/3;
+    padding: 12px 22px;
+    margin: auto;
+    width: 312px;
+    height: 43px;
+    left: 24px;
+    top: 473px;
+    gap: 10px;
+}
+
+footer{
+    width: 100%;
+    gap: 2.25rem;
+    top: 45.1875rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
